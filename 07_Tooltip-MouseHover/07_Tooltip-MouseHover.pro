@@ -3,6 +3,7 @@
 ######################################################################
 
 QT += widgets
+QT += gui
 
 TEMPLATE = app
 TARGET = 07_Tooltip-MouseHover
