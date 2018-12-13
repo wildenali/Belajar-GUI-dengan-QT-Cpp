@@ -5,6 +5,7 @@
 #include <QPushButton>
 
 class MainForm: public QWidget {
+  Q_OBJECT
 private:
   QPushButton *button1;
   QPushButton *button2;
