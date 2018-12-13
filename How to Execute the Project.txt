@@ -1,0 +1,50 @@
+Misalnya sudah membuat project nya, terus langkah selanjutnya adalah
+bikin supaya project tersebut bisa di eksekusi, caranya adalah seperti berikut
+
+Misalnya gunakan contoh no 08_, awalnya si project 08_ ada file:
+mainform.h
+mainform.cpp
+main.cpp
+
+Kemudian Langkah-Langkah berikutnya adalah seperti berikut:
+1. Buat file project *.pro dengan cara:
+
+    $ qmake -project
+
+    di dalam repository project yang sedang dikerjakan
+    Hasil dari mengeksekusi tersebut adalah akan muncul file baru dengan nama
+
+    08_QVBoxLayout.pro
+
+    edit file tersebut dan tambahkan dengan QT += widgets
+
+
+2. Buat file Makefile dengan menulis perintah:
+
+    $ qmake
+
+    Hasil dari mengeksekusi perintah tersebut adalah akan muncul file baru dengan nama
+    Makefile
+
+
+3. COMPILE project yang udah dibuat dengan cara, mengeksekusi perintah berikut:
+
+    $ sudo make
+
+    Pastikan tidak ada error yang terjadi, kalau sudah tidak ada error, maka akan muncul beberapa file seperti:
+
+    QVBoxLayout
+    main.o
+    mainform.o
+    moc_mainform.cpp
+    moc_mainform.o
+
+    file tersebut muncul karena kompilasi project
+
+
+4. Jalankan program nya dengan menuliskan perintah:
+
+    ./08_QVBoxLayout
+
+
+Jreng Jreng HASILNYA KELUAR
