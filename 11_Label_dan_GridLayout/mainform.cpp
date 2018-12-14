@@ -14,7 +14,7 @@ MainForm::~MainForm() {
 }
 
 void MainForm::setupUI() {
-  this->resize(300,400);
+  this->resize(500,200);
   this->move(300,300);
   this->setWindowTitle("Phonebook dengan posisi menggunakan Grid Layout");
 
