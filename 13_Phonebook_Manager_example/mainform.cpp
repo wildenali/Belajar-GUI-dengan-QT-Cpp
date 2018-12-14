@@ -20,7 +20,7 @@ MainForm::~MainForm() {
 void MainForm::setupUI() {
   this->resize(450,350);
   this->move(500,200);
-  this->setWindowTitle("Phonebook Manager");
+  this->setWindowTitle("Phonebook Managerrrrrrrrrrrrrrrrrrrrrr");
 
   addButton = new QPushButton("Tambah");
   editButton = new QPushButton("Ubah");
