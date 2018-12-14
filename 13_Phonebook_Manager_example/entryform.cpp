@@ -27,7 +27,7 @@ void EntryForm::setupUI() {
 
   label1 = new QLabel("Nama Coy: ");
   nameLineEdit = new QLineEdit();
-  label2 = new QLabel("Nomor Hengpong: ");
+  label2 = new QLabel("Nomor Hengpongggg: ");
   phoneLineEdit = new QLineEdit();
 
   QGridLayout *layout = new QGridLayout();
