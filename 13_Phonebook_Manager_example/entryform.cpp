@@ -35,7 +35,7 @@ void EntryForm::setupUI() {
   layout->addWidget(nameLineEdit, 0, 1);
   layout->addWidget(label2, 1, 0);
   layout->addWidget(phoneLineEdit, 1, 1);
-  layout->addLayout(hbox, 2, 1);
+  layout->addLayout(hbox, 2, 2);
 
   this->setLayout(layout);
 
