@@ -48,9 +48,9 @@ void MainForm::setupUI() {
   vbox1->addStretch();
 
   addButton = new QPushButton("&Tambah");       // kenapa ada tanda '&' disitu, karena itu buat shortcut
-  substactButton = new QPushButton("&Kurang");  // jadi kalau mau cepet tinggal pencet CTRL+T untuk tambah
-  mulButton = new QPushButton("K&ali");         // CTRL+K untuk Kurang, CTRL+a untuk kAli
-  divButton = new QPushButton("&Bagi");         // CTRL+B untuk Bagi
+  substactButton = new QPushButton("&Kurang");  // jadi kalau mau cepet tinggal pencet ALT+T untuk tambah
+  mulButton = new QPushButton("K&ali");         // ALT+K untuk Kurang, ALT+a untuk kAli
+  divButton = new QPushButton("&Bagi");         // ALT+B untuk Bagi
 
   QVBoxLayout * vbox2 = new QVBoxLayout();
   vbox2->addWidget(addButton);
