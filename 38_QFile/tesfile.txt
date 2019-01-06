@@ -1,0 +1,1 @@
+ini adalah contoh program dengan menggunakan QFile yang berfungsi untuk membuat file dan membaca file yang telah di buat
