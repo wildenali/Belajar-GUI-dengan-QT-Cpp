@@ -1,0 +1,1 @@
+Contoh akses file dari program QT menggunakan kelas QFile dan QTextStream
