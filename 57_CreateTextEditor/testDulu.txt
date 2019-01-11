@@ -1,0 +1,16 @@
+int x;
+int y;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(6, OUTPUT);
+}
+
+void loop() {
+  if(Serial.available()){
+    digitalWrite(6, HIGH);
+    delay(5000);
+    digitalWrite(6, LOW);
+    delay(5000);
+  }
+}
