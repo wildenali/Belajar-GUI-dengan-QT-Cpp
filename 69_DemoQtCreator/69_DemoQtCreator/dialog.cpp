@@ -16,5 +16,5 @@ Dialog::~Dialog()
 
 void Dialog::on_pushButton_clicked()
 {
-    QMessageBox::information(this, "Demo Qt Creator", tr("Hallo ") + ui->lineEdit->text() + tr(", apa kabar?"));
+    QMessageBox::information(this, "Demo Qt Creator", tr("Hahahaaa  ") + ui->lineEdit->text() + tr(", apa kabar?"));
 }
